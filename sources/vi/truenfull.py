@@ -15,7 +15,7 @@ search_url = "https://truyentr.info/?s=%s"
 
 class TruenFull(Crawler):
     has_mtl = True
-    base_url = ["https://truyenfull.vn/", "https://truyentr.info/"]
+    base_url = ["https://truyenfull.vn/", "https://truyentr.info/","https://truyenfull.vision/"]
 
     @staticmethod
     def __select_value(tag: Tag, css: str, attr: Optional[str] = None):
